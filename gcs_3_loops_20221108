@@ -1,0 +1,7 @@
+# This is a python program that takes an integer and prints all odd numbers up to the integer
+
+lowernumber = int(input("Enter the lower limit of the range: "))
+uppernumber = int(input("Enter the upper limit of the range: "))
+for i in range(lowernumber, uppernumber + 1):
+    if(i%2!=0):
+        print(i)
